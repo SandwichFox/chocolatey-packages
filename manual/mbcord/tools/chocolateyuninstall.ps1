@@ -30,6 +30,3 @@ if ($key.Count -eq 1) {
   Write-Warning "Please alert package maintainer the following keys were matched:"
   $key | % {Write-Warning "- $($_.DisplayName)"}
 }
-
-Remove-Item -Recurse -Force "C:\Users\*\Desktop\mbcord.lnk"
-Remove-Item -Recurse -Force "C:\Users\*\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\mbcord.lnk"

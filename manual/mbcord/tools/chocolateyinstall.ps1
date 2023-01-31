@@ -16,9 +16,6 @@ $packageArgs = @{
 }
 
 Install-ChocolateyPackage @packageArgs
-Install-ChocolateyShortcut -shortcutFilePath "%USERPROFILE%/Desktop" -targetPath "%localappdata%/Programs/mbcord/mbcord.exe" [-description "A Discord rich presence client for Jellyfin and Emby"]
-Install-ChocolateyShortcut -shortcutFilePath "%AppData%\Microsoft\Windows\Start Menu\Programs" -targetPath "%localappdata%/Programs/mbcord/mbcord.exe" [-description "A Discord rich presence client for Jellyfin and Emby"]
-
 
 
 
