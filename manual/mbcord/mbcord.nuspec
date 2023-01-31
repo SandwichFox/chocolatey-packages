@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>mbcord</id>
+    <version>3.0.6</version>
+    <title>MBCord</title>
+    <authors>SandwichFox</authors>
+    <projectUrl>https://github.com/SandwichFox/mbcord</projectUrl>
+    <iconUrl>http://rawcdn.githack.com/sandwichfox/mbcord/master/icons/large.png</iconUrl>
+    <copyright>2023 SandwichFox</copyright>
+    <licenseUrl>https://github.com/SandwichFox/MBCord/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/SandwichFox/mbcord</projectSourceUrl>
+    <docsUrl>https://github.com/SandwichFox/MBCord/wiki</docsUrl>
+    <tags>mbcord discord jellyfin</tags>
+    <summary>An Emby/Jellyfin rich presence client for Discord</summary> 
+    <description>
+    # MBCord
+
+    MBCord is a Discord rich presence client for [Jellyfin](https://jellyfin.org) and [Emby](https://emby.media/)
+
+    First time or looking for some answers? Visit the [Wiki](https://github.com/SandwichFox/MBCord/wiki)
+
+    </description>
+    <releaseNotes>
+    ## What's Changed and Whats New?
+      - Bump electron from 21.2.2 to 21.2.3 by @dependabot in https://github.com/SandwichFox/MBCord/pull/21
+      - Bump material-icons from 1.12.1 to 1.12.2 by @dependabot in https://github.com/SandwichFox/MBCord/pull/27
+      - Bump got from 12.5.2 to 12.5.3 by @dependabot in https://github.com/SandwichFox/MBCord/pull/26
+      - Bump electron from 21.2.3 to 22.0.0 by @dependabot in https://github.com/SandwichFox/MBCord/pull/28
+      - Bump minimatch from 5.1.0 to 5.1.1 by @dependabot in https://github.com/SandwichFox/MBCord/pull/32
+      - Bump electron-context-menu from 3.6.0 to 3.6.1 by @dependabot in https://github.com/SandwichFox/MBCord/pull/31
+      - Bump @materializecss/materialize from 1.1.0 to 1.2.0 by @dependabot in https://github.com/SandwichFox/MBCord/pull/25
+      - Bump material-icons from 1.12.2 to 1.13.1 by @dependabot in https://github.com/SandwichFox/MBCord/pull/30
+      - Added Dynamic Album Covers for **Jellyfin** as requested in #14 (Emby Support will come!)
+
+      **Full Changelog**: https://github.com/SandwichFox/MBCord/compare/3.0.5...3.0.6
+    </releaseNotes>
+    <dependencies>
+      <dependency id="discord" version="1.0.9001" />
+      <dependency id="chocolatey-core.extension" version="1.1.0" />
+    </dependencies>
+    </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
