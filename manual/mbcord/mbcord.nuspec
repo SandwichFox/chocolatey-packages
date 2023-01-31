@@ -4,6 +4,7 @@
     <id>mbcord</id>
     <version>3.0.6</version>
     <title>MBCord</title>
+    <packageSourceUrl>https://github.com/SandwichFox/chocolatey-packages/tree/master/manual/mbcord</packageSourceUrl>
     <authors>SandwichFox</authors>
     <projectUrl>https://github.com/SandwichFox/mbcord</projectUrl>
     <iconUrl>http://rawcdn.githack.com/sandwichfox/mbcord/master/icons/large.png</iconUrl>
